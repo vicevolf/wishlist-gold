@@ -3723,7 +3723,7 @@ fieldset:disabled a.btn {
 .show>.btn-danger.dropdown-toggle {
   color: #fff;
   background-color: #4681a5;
-  border-color: #800513;
+  border-color: transparent;
 }
 
 /* line 46, node_modules/bootstrap/scss/mixins/_buttons.scss */
