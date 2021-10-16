@@ -1,11 +1,11 @@
 # Site
-name: 'Pintereso'
-description: 'Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.'
+name: 'Game Bark'
+description: '看好你的游戏愿望单！'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: '/template-pintereso-bootstrap-jekyll'
+# baseurl: '/template-pintereso-bootstrap-jekyll'
 avatar: 'assets/images/sal.jpg'
-disqus: 'demowebsite'
+# disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 
 include: ["_pages"]
