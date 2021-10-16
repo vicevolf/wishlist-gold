@@ -6189,6 +6189,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  max-width: 42px;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
