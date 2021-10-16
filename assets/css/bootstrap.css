@@ -11087,3 +11087,8 @@ a.text-gray200:hover, a.text-gray200:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+    .btn:hover, .btn:focus, .btn:active, .btn:visited {
+      outline: none;
+      box-shadow: none !important;
+  }
