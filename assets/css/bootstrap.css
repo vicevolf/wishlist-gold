@@ -6423,6 +6423,7 @@ input[type="button"].btn-block {
     -webkit-box-pack: start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+    border-radius: 0.25rem;
   }
 
   /* line 158, node_modules/bootstrap/scss/_navbar.scss */
@@ -9438,6 +9439,10 @@ button.bg-gray200:focus {
 /* line 13, node_modules/bootstrap/scss/utilities/_background.scss */
 .bg-white {
   background-color: #171a21 !important;
+}
+
+.bg-blue {
+  background-color: #336699 !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/utilities/_background.scss */
