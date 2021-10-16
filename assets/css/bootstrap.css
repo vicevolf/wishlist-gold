@@ -11098,3 +11098,10 @@ a.text-gray200:hover, a.text-gray200:focus {
            outline: none;
            box-shadow:none;
        }
+
+    input:focus {
+    outline: none;
+    border-color: #cfdc00;
+    box-shadow: 0 0 5px rgba(207, 220, 0, 0.4);
+    border-radius: 5px;
+    }
