@@ -2779,10 +2779,10 @@ pre code {
 .form-control:focus {
   color: #495057;
   background-color: #fff;
-  border-color: #f74d60;
+  border-color: transparent;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.25);
-  box-shadow: 0 0 0 0.2rem rgba(189, 8, 28, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem transparent;
+  box-shadow: 0 0 0 0.2rem transparent;
 }
 
 /* line 40, node_modules/bootstrap/scss/_forms.scss */
