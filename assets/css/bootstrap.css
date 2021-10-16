@@ -15204,10 +15204,8 @@ a.text-gray200:focus {
 .btn:active.focus,
 .btn.active.focus {
   outline: none;
-  border-color: transparent;
   box-shadow: none;
 }
-
 
 input:focus {
   outline: none;
