@@ -195,11 +195,15 @@ article .card-body {
     background-color:transparent;
 }
 .btn-gray {
-    background-color: #efefef;
-    color:#333;
+    background-color: #669933;
+    color:#d2efa9;
 }
 .btn-gray:hover {
-    background-color:#ddd;
+    background-color:#8CD429;
+}
+
+.btn-gray.a:hover {
+    color:#f1f1f1;
 }
 .navbar-nav.categories  a   {
     font-size: 15px;
