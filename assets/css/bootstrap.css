@@ -3058,8 +3058,8 @@ fieldset:disabled a.btn {
     border-color: #d5d5d5; }
   /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
   .btn-gray200:focus, .btn-gray200.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
-            box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem #4681a5;
+            box-shadow: 0 0 0 0.2rem #4681a5; }
   /* line 29, node_modules/bootstrap/scss/mixins/_buttons.scss */
   .btn-gray200.disabled, .btn-gray200:disabled {
     color: #212529;
@@ -3074,8 +3074,8 @@ fieldset:disabled a.btn {
     /* line 46, node_modules/bootstrap/scss/mixins/_buttons.scss */
     .btn-gray200:not(:disabled):not(.disabled):active:focus, .btn-gray200:not(:disabled):not(.disabled).active:focus,
     .show > .btn-gray200.dropdown-toggle:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
-              box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem #4681a5;
+              box-shadow: 0 0 0 0.2rem #4681a5; }
 
 /* line 70, node_modules/bootstrap/scss/_buttons.scss */
 .btn-outline-primary {
@@ -3555,8 +3555,8 @@ fieldset:disabled a.btn {
     border-color: #eee; }
   /* line 69, node_modules/bootstrap/scss/mixins/_buttons.scss */
   .btn-outline-gray200:focus, .btn-outline-gray200.focus {
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
-            box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5); }
+    -webkit-box-shadow: 0 0 0 0.2rem #4681a5;
+            box-shadow: 0 0 0 0.2rem #4681a5; }
   /* line 74, node_modules/bootstrap/scss/mixins/_buttons.scss */
   .btn-outline-gray200.disabled, .btn-outline-gray200:disabled {
     color: #eee;
@@ -3570,8 +3570,8 @@ fieldset:disabled a.btn {
     /* line 87, node_modules/bootstrap/scss/mixins/_buttons.scss */
     .btn-outline-gray200:not(:disabled):not(.disabled):active:focus, .btn-outline-gray200:not(:disabled):not(.disabled).active:focus,
     .show > .btn-outline-gray200.dropdown-toggle:focus {
-      -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5);
-              box-shadow: 0 0 0 0.2rem rgba(238, 238, 238, 0.5); }
+      -webkit-box-shadow: 0 0 0 0.2rem #4681a5;
+              box-shadow: 0 0 0 0.2rem #4681a5; }
 
 /* line 81, node_modules/bootstrap/scss/_buttons.scss */
 .btn-link {
