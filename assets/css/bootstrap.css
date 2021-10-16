@@ -11088,7 +11088,13 @@ a.text-gray200:hover, a.text-gray200:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
-    .btn:hover, .btn:focus, .btn:active, .btn:visited {
-      outline: none;
-      box-shadow: none !important;
-  }
+/* 去除按钮点击阴影 */
+    .btn:focus, 
+    .btn:active:focus, 
+    .btn.active:focus,
+    .btn.focus,
+    .btn:active.focus,
+     .btn.active.focus {
+           outline: none;
+           box-shadow:none;
+       }
