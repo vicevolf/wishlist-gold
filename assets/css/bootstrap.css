@@ -9436,9 +9436,9 @@ button.bg-gray200:focus {
 }
 
 /* line 13, node_modules/bootstrap/scss/utilities/_background.scss */
-/* .bg-white {
+.bg-white {
   background-color: #171a21 !important;
-} */
+}
 
 /* line 17, node_modules/bootstrap/scss/utilities/_background.scss */
 .bg-transparent {
