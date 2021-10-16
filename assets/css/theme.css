@@ -20,7 +20,7 @@ a,.a:hover {
 	border-radius: 0;
 }
 blockquote {
-    border-left: 7px solid #669933;
+    border-left: 7px solid #2B4C6B;
     padding-left: 20px;
     margin-left: 20px;
     font-style: italic;
@@ -170,9 +170,9 @@ article .card-body {
 	font-weight:500;
 }
 .pagination span.webjeda {
-	background:#669933;
+	background:#2B4C6B;
 	color:#fff;
-	border:1px solid #669933;
+	border:1px solid #2B4C6B;
 }
 .pagination a,.pagination span.prev,.pagination span.next {
 	background-color:#ffffff;
@@ -181,7 +181,7 @@ article .card-body {
 	color:#333;
 }
 .pagination a {
-	color:#669933;
+	color:#2B4C6B;
 }
 .pagination a:hover {
 	background-color:#f1f1f1;
@@ -238,7 +238,7 @@ article .card-body {
      transition: all 0.2s;
 }
 .card-pin.raco:hover i.text-muted {
-    color:#669933 !Important;
+    color:#2B4C6B !Important;
      transition: all 0.2s;
     position: relative;
 }
