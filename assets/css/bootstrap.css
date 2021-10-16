@@ -15196,7 +15196,7 @@ a.text-gray200:focus {
   }
 }
 
-/* 去除按钮点击阴影 */
+/* 去除按钮点击阴影
 .btn:focus,
 .btn:active:focus,
 .btn.active:focus,
@@ -15212,4 +15212,4 @@ input:focus {
   border-color: #cfdc00;
   box-shadow: 0 0 5px rgba(207, 220, 0, 0.4);
   border-radius: 5px;
-}
+} */
