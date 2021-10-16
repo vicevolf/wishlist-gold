@@ -130,6 +130,7 @@ h6,
 .card {
   border: 0;
   transition: ease .1s;
+  min-height: 100px;
 }
 
 .card-pin:hover .overlay {
