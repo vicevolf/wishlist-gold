@@ -18,7 +18,7 @@ description: "心选值得一玩的“小游戏”"
   <div class="container-fluid">
 
     <div class="card-columns">
-      {% for post in paginator.posts reversed %}
+      {% for post in paginator.posts %}
       {% include card-post.html %}
       {% endfor %}
     </div>
