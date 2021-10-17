@@ -22,6 +22,12 @@ layout: default
               {{page.title}}
             </h1>
 
+            {% if page.visit %}
+            <p><a target="_blank" id="wishlist" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
+                添加至愿望单 <i class="far fa-bookmark"></i></a>
+            </p>
+            {% endif %}
+
             <small class="text-muted d-block mb-3">
               {% unless page.metadate == "hide" %}
               {{ page.date | date: '%B %d, %Y' }}
@@ -33,11 +39,6 @@ layout: default
 
             {{ content }}
 
-            {% if page.visit %}
-            <p><a target="_blank" id="wishlist" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
-                添加至愿望单 <i class="far fa-bookmark"></i></a>
-            </p>
-            {% endif %}
 
             {% for category in page.categories %}
             <a class="btn btn-sm btn-primary mt-2 shadow-none" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
