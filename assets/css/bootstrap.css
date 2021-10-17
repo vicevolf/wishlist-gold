@@ -11481,7 +11481,7 @@ button.bg-gray200:focus {
 /* line 21, node_modules/bootstrap/scss/utilities/_spacing.scss */
 .mb-3,
 .my-3 {
-  margin-top: 1rem !important;
+  margin-top: 2rem !important;
 }
 
 /* line 25, node_modules/bootstrap/scss/utilities/_spacing.scss */
