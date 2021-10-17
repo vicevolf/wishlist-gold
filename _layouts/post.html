@@ -22,15 +22,6 @@ layout: default
               {{page.title}}
             </h1>
 
-            <small class="text-muted d-block mb-3">
-              {% unless page.metadate == "hide" %}
-              {{ page.date | date: '%B %d, %Y' }}
-              {% endunless %}
-              {% if page.author %}
-              , by {{page.author | capitalize}}
-              {% endif %}
-            </small>
-
             {% if page.visit %}
             <p><a target="_blank" id="wishlist" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
                 添加至愿望单 <i class="far fa-bookmark"></i></a>
@@ -44,6 +35,15 @@ layout: default
             {% endfor %}
 
             {{ content }}
+
+            <small class="text-muted d-block mb-3">
+              {% unless page.metadate == "hide" %}
+              {{ page.date | date: '%B %d, %Y' }}
+              {% endunless %}
+              {% if page.author %}
+              , by {{page.author | capitalize}}
+              {% endif %}
+            </small>
 
             {% include comments.html %}
 
