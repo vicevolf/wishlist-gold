@@ -45,3 +45,5 @@ function loadSearch(){
         })
     })
 }
+
+require("avif.js").register("/avif-sw.js")
