@@ -1,7 +1,7 @@
 ---
-title:  "水银疗养院 Mercury Abbey"
+title:  "水银疗养院 Merucy Abbey"
 categories: [ Premium, UI, Graphics ]
-image: "/assets/images/stellar.jpg"
+image: "/assets/images/MerucyAbbey/0.jpg"
 visit: "https://store.steampowered.com/app/1689080/_/"
 author: "Player 2"
 date: "2021-10-17"
