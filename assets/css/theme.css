@@ -673,8 +673,11 @@ a.next {
   background-color: #f8f8f8;
 }
 
-/* page.color */
-.red {
-  background: #009926;
-  color: red;
+/* post.status */
+.tbd {
+  background: #1a6386;
+}
+
+.thx {
+  background: #4f6b85;
 }
