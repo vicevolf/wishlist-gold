@@ -674,7 +674,7 @@ a.next {
 }
 
 /* page.color */
-#red {
+.red {
   background: #009926;
   color: red;
 }
