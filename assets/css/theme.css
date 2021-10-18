@@ -672,3 +672,9 @@ a.next {
 .highlight {
   background-color: #f8f8f8;
 }
+
+/* page.color */
+#red {
+  background: #009926;
+  color: red;
+}
