@@ -352,6 +352,18 @@ article .card-body {
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.gotopost2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 0px 5px 1px 5px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 .PageNavigation a {
   position: fixed;
   top: 47%;
