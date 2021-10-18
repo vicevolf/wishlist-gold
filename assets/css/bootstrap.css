@@ -6841,7 +6841,7 @@ input[type="button"].btn-block {
 /* line 122, node_modules/bootstrap/scss/_card.scss */
 .card-img {
   width: 100%;
-  min-height: 256px;
+  min-height: 100px;
   border-radius: calc(0.25rem - 1px);
 }
 
