@@ -23,13 +23,15 @@ layout: default
             </h1>
 
             {% if page.visit %}
-            <p><a target="_blank" id="wishlist" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
-                添加至愿望单 <i class="far fa-bookmark"></i></a>
+            <p><a target="_blank" id="wishlist" href="{{page.visit}}"
+                class="btn btn-gray d-block font-weight-bold shadow-none">
+                添加至 愿望单 <i class="far fa-bookmark"></i></a>
             </p>
             {% endif %}
 
             {% if page.muse %}
-            <p><a target="_blank" id="wishlist" href="{{page.muse}}" class="btn btn-gray d-block font-weight-bold">
+            <p><a target="_blank" id="wishlist" href="{{page.muse}}"
+                class="btn btn-primary d-block font-weight-bold shadow-none">
                 浏览 PressKit <i class="far fa-star"></i></a>
             </p>
             {% endif %}
