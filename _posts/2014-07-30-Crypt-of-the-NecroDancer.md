@@ -14,5 +14,4 @@ date: "2015-04-24"
 - 参考史低：9元
 - 艺术家：[Brace Yourself Games](https://braceyourselfgames.com/)
 
-<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%"></iframe>
-
+<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="100%"></iframe>
