@@ -11,7 +11,8 @@ date: "2015-04-24"
 
 节奏地牢是一个屡获殊荣的铁杆roguelike节奏游戏。随着音乐移动，踏着节拍击败敌人！
 
-- 参考史低：9元
+- 参考史低：9 RMB
+- 平均时长：7h 48m
 - 艺术家：[Brace Yourself Games](https://braceyourselfgames.com/)
 
-<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="100%"></iframe>
+<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="256px"></iframe>
