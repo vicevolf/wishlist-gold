@@ -28,6 +28,12 @@ layout: default
             </p>
             {% endif %}
 
+            {% if page.muse %}
+            <p><a target="_blank" id="wishlist" href="{{page.muse}}" class="btn btn-gray d-block font-weight-bold">
+                浏览 PressKit <i class="far fa-star"></i></a>
+            </p>
+            {% endif %}
+
             {% for category in page.categories %}
             <a class="btn btn-sm btn-primary mt-2 shadow-none"
               href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
