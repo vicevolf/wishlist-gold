@@ -17,4 +17,4 @@ date: "2015-04-24"
 
 <iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="200px"></iframe>
 
-<iframe src="//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width="100%"> </iframe>
+<iframe src="https://player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
