@@ -29,12 +29,24 @@ layout: default
             {% endif %}
 
             {% for category in page.categories %}
-            <a class="btn btn-sm btn-primary mt-2 shadow-none" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
+            <a class="btn btn-sm btn-primary mt-2 shadow-none"
+              href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
               # {{ category | downcase }}
             </a>
             {% endfor %}
 
             {{ content }}
+
+            {% if page.steam %}
+            <iframe src="https://store.steampowered.com/widget/{{ page.steam }}/" frameborder="0" width="100%"
+              height="200px"></iframe>
+            {% endif %}
+
+            {% if page.bili %}
+            <iframe src="https:{{ page.bili }}&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="450"
+              scrolling="no" frameborder="0"
+              sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
+            {% endif %}
 
             <small class="text-muted d-block mb-3">
               {% unless page.metadate == "hide" %}
