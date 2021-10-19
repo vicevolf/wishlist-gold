@@ -15,4 +15,4 @@ date: "2015-04-24"
 - 平均时长：7h 48m
 - 艺术家：[Brace Yourself Games](https://braceyourselfgames.com/)
 
-<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="256px"></iframe>
+<iframe src="https://store.steampowered.com/widget/247080/" frameborder="0" width="100%" height="200px"></iframe>
