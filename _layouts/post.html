@@ -43,7 +43,9 @@ layout: default
             </a>
             {% endfor %}
 
-            {{ content }}
+            <div class="content">
+              {{ content }}
+            </div>
 
             {% if page.steam %}
             <iframe src="https://store.steampowered.com/widget/{{ page.steam }}/" frameborder="0" width="100%"
