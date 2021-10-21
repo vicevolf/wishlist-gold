@@ -58,11 +58,19 @@ layout: default
               sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
             {% endif %}
 
-            {% if page.ost %}
+            <!-- {% if page.ost %}
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="450"
               loading="lazy" src="https://music.163.com/outchain/player?type=1&id={{ page.ost }}&auto=0&height=430"
               sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
-            {% endif %}
+            {% endif %} -->
+
+            <!-- require APlayer -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+            <!-- require MetingJS -->
+            <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+            <meting-js id="2614827308" server="netease" type="playlist" auto="netease" fixed="true" list-folded="true">
+            </meting-js>
 
             <small class="text-muted d-block mb-3">
               {% unless page.metadate == "hide" %}
