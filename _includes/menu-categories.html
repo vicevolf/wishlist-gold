@@ -1,12 +1,13 @@
 <!-- Don't edit anything here, categories are dynamically generated -->
 
 <nav class="navbar navbar-expand-lg navbar-light bg-blue pl-2 pr-2">
-    <button class="navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExplore" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-light navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExplore"
+    aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExplore">
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExplore">
     <ul class="navbar-nav categories">
-    {% assign categories_list = site.categories %}
+      <!-- {% assign categories_list = site.categories %}
       {% if categories_list.first[0] == null %}
         {% for category in categories_list %}
           <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">{{ category }} ({{ site.tags[category].size }})</a></li>
@@ -16,7 +17,32 @@
           <li class="nav-item"><a class="nav-link" href="{{site.baseurl}}/categories.html#{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a></li>
         {% endfor %}
       {% endif %}
-    {% assign categories_list = nil %}
-    </ul>    
-    </div>
+    {% assign categories_list = nil %} -->
+
+      <!-- 手动控制标签 -->
+      <li class="nav-item"><a class="nav-link" href="/categories.html#在售">在售</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#rogue">Rogue</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#音乐">音乐</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#像素">像素</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#动作">动作</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#合作">合作</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#复古">复古</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#心境">心境</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#横版">横版</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#解密">解密</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#烧脑">烧脑</a></li>
+
+      <li class="nav-item"><a class="nav-link" href="/categories.html#可爱">可爱</a></li>
+    </ul>
+  </div>
 </nav>
