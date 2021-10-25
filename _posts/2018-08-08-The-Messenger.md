@@ -7,7 +7,7 @@ author: "Player 2"
 date: "2018-08-08"
 steam: "764790"
 bili: "//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=429293393&page=3"
-
+ost: "2722193923"
 ---
 
 > 8bit 与 16bit 哪个更酷？

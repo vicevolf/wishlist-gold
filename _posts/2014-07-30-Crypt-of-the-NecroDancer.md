@@ -8,7 +8,7 @@ date: "2015-04-24"
 steam: "247080"
 bili: "//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1"
 press: "https://www.aliyundrive.com/s/kVgfyL375do"
-ost: "3190522"
+ost: "600259949"
 ---
 
 > 你能踩着心跳起舞吗？
