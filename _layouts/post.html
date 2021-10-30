@@ -43,28 +43,32 @@ layout: default
             </a>
             {% endfor %}
 
+            <div>
+              <ul class="exlink">
+                <li><a href="https://search.bilibili.com/all?keyword={{ page.title }}" target="_blank" rel="noopener"
+                    title="在【B站】搜索"><img alt="bili" src="/assets/images/exlink/bili.svg"></a>
+                </li>
+                <li><a href="https://indienova.com/search/all/{{ page.title }}" target="_blank" rel="noopener"
+                    title="在【诺娃】搜索"><img alt="nova" src="/assets/images/exlink/nova.svg"></a>
+                </li>
+                <li><a href="https://www.gcores.com/search?keyword={{ page.title }}" target="_blank" rel="noopener"
+                    title="在【机核】搜索"><img alt="Gcore" src="/assets/images/exlink/gcore.svg"></a>
+                </li>
+                <li><a href="https://www.zhihu.com/search?type=content&q={{ page.title }}" target="_blank"
+                    rel="noopener" title="在【知乎】搜索"><img alt="zhihu" src="/assets/images/exlink/zhihu.svg"></a>
+                </li>
+                <li><a href="https://weixin.sogou.com/weixin?type=2&query={{ page.title }}" target="_blank"
+                    rel="noopener" title="在【微信】搜索"><img alt="wechat" src="/assets/images/exlink/wechat.svg"></a>
+                </li>
+                <li><a href="https://s.weibo.com/weibo?q={{ page.title }}" target="_blank" rel="noopener"
+                    title="在【微博】搜索"><img alt="weibo" src="/assets/images/exlink/weibo.svg"></a>
+                </li>
+              </ul>
+            </div>
+
             <div class="content">
               {{ content }}
             </div>
-
-            {% if page.steam %}
-            <iframe src="https://store.steampowered.com/widget/{{ page.steam }}/" loading="lazy" frameborder="0"
-              width="100%" height="200px"></iframe>
-            {% endif %}
-
-            {% if page.bili %}
-            <iframe src="https:{{ page.bili }}&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="450"
-              loading="lazy" scrolling="no" frameborder="0"
-              sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>
-            {% endif %}
-
-            <!-- require APlayer -->
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
-            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
-            <!-- require MetingJS -->
-            <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
-            <meting-js id="{{ page.ost }}" server="netease" type="playlist" auto="netease" fixed="true" theme="#1b2838">
-            </meting-js>
 
             <div>
               <ul class="exlink">
@@ -88,6 +92,25 @@ layout: default
                 </li>
               </ul>
             </div>
+
+            {% if page.steam %}
+            <iframe src="https://store.steampowered.com/widget/{{ page.steam }}/" loading="lazy" frameborder="0"
+              width="100%" height="200px"></iframe>
+            {% endif %}
+
+            {% if page.bili %}
+            <iframe src="https:{{ page.bili }}&danmaku=1" allowfullscreen="allowfullscreen" width="100%" height="450"
+              loading="lazy" scrolling="no" frameborder="0"
+              sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>
+            {% endif %}
+
+            <!-- require APlayer -->
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
+            <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+            <!-- require MetingJS -->
+            <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+            <meting-js id="{{ page.ost }}" server="netease" type="playlist" auto="netease" fixed="true" theme="#1b2838">
+            </meting-js>
 
             <small class="text-muted d-block mb-3">
               {% unless page.metadate == "hide" %}
