@@ -703,3 +703,16 @@ a.next {
 .aplayer {
   color: #25435b;
 }
+
+/* exlink */
+.exlink {
+  height: 25px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.exlink li {
+  display: inline-block;
+  margin-right: 1rem;
+}
