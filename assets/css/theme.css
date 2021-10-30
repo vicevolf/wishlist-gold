@@ -713,6 +713,7 @@ a.next {
 }
 
 .exlink li {
+  width: 1em;
   display: inline-block;
   margin-right: 1rem;
 }
