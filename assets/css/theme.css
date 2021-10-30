@@ -717,7 +717,3 @@ a.next {
   display: inline-block;
   margin-right: 1rem;
 }
-
-.exlink img :hover {
-  fill: #1c3b7f;
-}
