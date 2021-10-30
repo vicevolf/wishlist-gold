@@ -1,5 +1,6 @@
 ---
-title:  "节奏地牢 Crypt of the NecroDancer"
+title:  "节奏地牢"
+subtitle: "Crypt of the NecroDancer"
 categories: [ 在售, Rogue, 音乐, 像素 ]
 image: "/assets/images/CryptoftheNecroDancer/0.jpg"
 visit: "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/"
