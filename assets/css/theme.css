@@ -718,6 +718,6 @@ a.next {
   margin-right: 1rem;
 }
 
-.exlink a :hover {
-  color: #1c3b7f;
+.exlink img :hover {
+  fill: #1c3b7f;
 }
