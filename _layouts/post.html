@@ -112,6 +112,16 @@ layout: default
                       src="/assets/images/exlink/itch.svg"></a>
                 </li>
                 {% endif %}
+                {% if page.switch %}
+                <li><a href="https://www.nintendo.com/games/detail/{{ page.switch }}" target="_blank" rel="noopener"
+                    title="访问【SWITCH】商店"><img alt="switch" src="/assets/images/exlink/switch.svg"></a>
+                </li>
+                {% endif %}
+                {% if page.mobile %}
+                <li><a href="{{ page.mobile }}" target="_blank" rel="noopener" title="访问手机版游戏"><img alt="mobile"
+                      src="/assets/images/exlink/mobile.svg"></a>
+                </li>
+                {% endif %}
                 {% if page.kick %}
                 <li><a href="{{ page.kick }}" target="_blank" rel="noopener" title="了解游戏众筹"><img alt="kick"
                       src="/assets/images/exlink/kick.svg"></a>
