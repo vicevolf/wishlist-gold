@@ -708,12 +708,16 @@ a.next {
 .exlink {
   height: 25px;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin: 0 0 1rem 0;
+  padding: 0 0 0 1.4rem;
 }
 
 .exlink li {
   width: 1em;
   display: inline-block;
   margin-right: 1rem;
+}
+
+.exlink a :hover {
+  color: #1c3b7f;
 }
