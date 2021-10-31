@@ -12,6 +12,7 @@ press: "https://ldyx-my.sharepoint.com/:f:/g/personal/wolf_wishlist_one/Eo9HG2s5
 author: "Player 2"
 site: "https://braceyourselfgames.com/crypt-of-the-necrodancer"
 twitter: "https://twitter.com/NecroDancerGame"
+tube: "https://www.youtube.com/c/BraceYourselfGames"
 gog: "https://www.gog.com/game/crypt_of_the_necrodancer"
 switch: "https://www.nintendo.com/games/detail/crypt-of-the-necrodancer-nintendo-switch-edition-switch"
 ---
