@@ -23,4 +23,4 @@ switch: "https://www.nintendo.com/games/detail/crypt-of-the-necrodancer-nintendo
 
 - 参考史低：9 RMB
 - 平均时长：7h 48m
-- 艺术家们：[Brace Yourself Games](https://braceyourselfgames.com/)
+- 艺术家们：[Brace Yourself Games](https://braceyourselfgames.com)
