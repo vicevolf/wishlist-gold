@@ -4,12 +4,16 @@ subtitle: "Crypt of the NecroDancer"
 categories: [ 在售, Rogue, 音乐, 像素 ]
 image: "/assets/images/CryptoftheNecroDancer/0.jpg"
 visit: "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/"
-author: "Player 2"
-date: "2015-04-24"
 steam: "247080"
+date: "2015-04-24"
+ost: "600259949"
 bili: "//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1"
 press: "https://ldyx-my.sharepoint.com/:f:/g/personal/wolf_wishlist_one/Eo9HG2s5XMRHmH1bi13r-8AB46hGSCcJCnbjqM4AyYEEiA?e=O08gqy"
-ost: "600259949"
+author: "Player 2"
+site: "https://braceyourselfgames.com/crypt-of-the-necrodancer"
+twitter: "https://twitter.com/NecroDancerGame"
+gog: "https://www.gog.com/game/crypt_of_the_necrodancer"
+switch: "https://www.nintendo.com/games/detail/crypt-of-the-necrodancer-nintendo-switch-edition-switch"
 ---
 
 > 你能踩着心跳起舞吗？
