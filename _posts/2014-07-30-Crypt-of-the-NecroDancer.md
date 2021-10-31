@@ -8,7 +8,7 @@ author: "Player 2"
 date: "2015-04-24"
 steam: "247080"
 bili: "//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1"
-press: "https://www.aliyundrive.com/s/kVgfyL375do"
+press: "https://ldyx-my.sharepoint.com/:f:/g/personal/wolf_wishlist_one/Eo9HG2s5XMRHmH1bi13r-8AB46hGSCcJCnbjqM4AyYEEiA?e=O08gqy"
 ost: "600259949"
 ---
 
