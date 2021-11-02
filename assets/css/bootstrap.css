@@ -208,7 +208,7 @@ sup {
 
 /* line 198, node_modules/bootstrap/scss/_reboot.scss */
 a {
-  color: #67c1f5;
+  color: #c8b699;
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
@@ -216,7 +216,7 @@ a {
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 a:hover {
-  color: #8CD429;
+  color: #FFD700;
   text-decoration: underline;
 }
 

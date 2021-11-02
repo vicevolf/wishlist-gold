@@ -261,11 +261,11 @@ article .card-body {
 
 .btn-gray {
   background-color: #c8b699;
-  color: #d2efa9;
+  color: #fff6ea;
 }
 
 .btn-gray:hover {
-  background-color: #8CD429;
+  background-color: #FFD700;
 }
 
 #wishlist:hover {
