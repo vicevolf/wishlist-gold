@@ -6622,7 +6622,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #66C0F4;
+  color: #374151;
 }
 
 /* line 228, node_modules/bootstrap/scss/_navbar.scss */
@@ -14949,7 +14949,17 @@ a.text-light:focus {
 
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
 .text-dark {
-  color: #acb2b8 !important;
+  color: #E5E7EB !important;
+}
+
+.gotopost:hover,
+.gotopost:focus {
+  background-color: #c8b699;
+}
+
+.gotopost2:hover,
+.gotopost2:focus {
+  background-color: #c8b699;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
