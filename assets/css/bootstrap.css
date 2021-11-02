@@ -6622,7 +6622,7 @@ input[type="button"].btn-block {
 .navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #374151;
+  color: #c8b699;
 }
 
 /* line 228, node_modules/bootstrap/scss/_navbar.scss */
@@ -6842,7 +6842,8 @@ input[type="button"].btn-block {
 .card-img {
   width: 100%;
   min-height: 100px;
-  border-radius: calc(0.25rem - 1px);
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
 }
 
 /* line 128, node_modules/bootstrap/scss/_card.scss */
