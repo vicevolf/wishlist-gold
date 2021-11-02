@@ -87,9 +87,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #E2E8F0;
+  color: #E5E7EB;
   text-align: left;
-  background-color: #1b2838;
+  background-color: #111827;
 }
 
 /* line 73, node_modules/bootstrap/scss/_reboot.scss */
@@ -3698,8 +3698,8 @@ fieldset:disabled a.btn {
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 .btn-danger:hover {
   color: #fff;
-  background-color: #4681a5;
-  border-color: #4681a5;
+  background-color: #c8b699;
+  border-color: #c8b699;
 }
 
 /* line 18, node_modules/bootstrap/scss/mixins/_buttons.scss */
@@ -6603,13 +6603,13 @@ input[type="button"].btn-block {
 
 /* line 208, node_modules/bootstrap/scss/_navbar.scss */
 .navbar-light .navbar-nav .nav-link {
-  color: #d9d9d9;
+  color: #E5E7EB;
 }
 
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-  color: #66C0F4;
+  color: #c8b699;
 }
 
 /* line 215, node_modules/bootstrap/scss/_navbar.scss */
@@ -9440,11 +9440,11 @@ button.bg-gray200:focus {
 
 /* line 13, node_modules/bootstrap/scss/utilities/_background.scss */
 .bg-white {
-  background-color: #171a21 !important;
+  background-color: #00040D !important;
 }
 
 .bg-blue {
-  background-color: #336699 !important;
+  background-color: #374151 !important;
 }
 
 /* line 17, node_modules/bootstrap/scss/utilities/_background.scss */
@@ -14955,7 +14955,7 @@ a.text-light:focus {
 /* line 17, node_modules/bootstrap/scss/mixins/_hover.scss */
 a.text-dark:hover,
 a.text-dark:focus {
-  color: #66C0F4 !important;
+  color: #E5E7EB !important;
 }
 
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
@@ -15053,7 +15053,7 @@ a.text-gray200:focus {
 
 /* line 49, node_modules/bootstrap/scss/utilities/_text.scss */
 .text-muted {
-  color: #adb5bd !important;
+  color: #E5E7EB !important;
 }
 
 /* line 51, node_modules/bootstrap/scss/utilities/_text.scss */
