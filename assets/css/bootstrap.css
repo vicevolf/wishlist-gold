@@ -14951,7 +14951,7 @@ a.text-light:focus {
 /* line 6, node_modules/bootstrap/scss/mixins/_text-emphasis.scss */
 .text-dark {
   color: #E5E7EB !important;
-  width: 20px;
+  min-width: 20px;
   display: inline-block;
 }
 
