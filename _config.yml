@@ -1,12 +1,12 @@
 # Site
-name: '愿望单加一'
+name: '金色愿望单'
 description: '将游戏添加至您的愿望单！'
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 # baseurl: '/template-pintereso-bootstrap-jekyll'
 avatar: 'assets/images/sal.jpg'
 # disqus: 'demowebsite'
-email: 'wowthemesnet@gmail.com'
+# email: 'wowthemesnet@gmail.com'
 
 include: ["_pages"]
 permalink: /:title/
