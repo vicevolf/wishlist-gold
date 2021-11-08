@@ -142,6 +142,7 @@ layout: default
               sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>
             {% endif %}
 
+            {% if page.ost %}
             <!-- require APlayer -->
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css">
             <script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
@@ -150,6 +151,7 @@ layout: default
             <meting-js id="{{ page.ost }}" server="netease" type="playlist" auto="netease" fixed="true" theme="#1b2838"
               order="random">
             </meting-js>
+            {% endif %}
 
             <small class="text-muted d-block mb-3">
               {% unless page.metadate == "hide" %}
