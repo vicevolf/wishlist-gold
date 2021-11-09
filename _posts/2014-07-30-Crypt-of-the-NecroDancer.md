@@ -7,12 +7,13 @@ visit: "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/"
 steam: "247080"
 date: "2015-04-24"
 ost: "7057534189"
-bili: "//player.bilibili.com/player.html?aid=463651733&bvid=BV1aL411G7NF&cid=427749669&page=1"
+bili: "//player.bilibili.com/player.html?aid=591623328&bvid=BV1Eq4y1k7Mt&cid=439393014&page=5"
 press: "https://ldyx-my.sharepoint.com/:f:/g/personal/player2_wishlist_one/EtidXNYl-yBNsIBZDRvhsKwB-aO1FGfeSE2uKV_AQXRL7w?e=NJDq7p"
 author: "Player 2"
 site: "https://braceyourselfgames.com/crypt-of-the-necrodancer"
 twitter: "https://twitter.com/NecroDancerGame"
 tube: "https://www.youtube.com/c/BraceYourselfGames"
+back: "https://www.bilibili.com/video/BV1Eq4y1k7Mt"
 gog: "https://www.gog.com/game/crypt_of_the_necrodancer"
 switch: "https://www.nintendo.com/games/detail/crypt-of-the-necrodancer-nintendo-switch-edition-switch"
 ---
@@ -23,4 +24,5 @@ switch: "https://www.nintendo.com/games/detail/crypt-of-the-necrodancer-nintendo
 
 - 参考史低：9 RMB
 - 平均时长：7h 48m
+- 历史峰值：2,234
 - 艺术家们：[Brace Yourself Games](https://braceyourselfgames.com)
