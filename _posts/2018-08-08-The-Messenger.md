@@ -1,7 +1,7 @@
 ---
-title:  "信使 The Messenger"
+title:  "信使"
+subtitle: "The Messenger"
 categories: [ 在售, 动作, 横版, 像素 ]
-image: "/assets/images/TheMessenger/0.jpg"
 visit: "https://store.steampowered.com/app/764790/The_Messenger/"
 author: "Player 2"
 date: "2018-08-08"

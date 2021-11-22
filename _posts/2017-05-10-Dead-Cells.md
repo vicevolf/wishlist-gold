@@ -1,7 +1,7 @@
 ---
-title:  "死亡细胞 Dead Cells"
+title:  "死亡细胞 "
+subtitle: "Dead Cells"
 categories: [ 在售, 动作, Rogue, 像素 ]
-image: "/assets/images/DeadCells/0.jpg"
 visit: "https://store.steampowered.com/app/588650/Dead_Cells/"
 author: "Player 2"
 date: "2018-08-07"

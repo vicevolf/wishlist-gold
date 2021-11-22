@@ -1,7 +1,7 @@
 ---
-title:  "巴巴是你 Baba is You"
+title:  "巴巴是你"
+subtitle: "Baba is You"
 categories: [ 在售, 解密, 烧脑, 可爱 ]
-image: "/assets/images/BabaisYou/0.jpg"
 visit: "https://store.steampowered.com/app/736260/Baba_Is_You/"
 author: "Player 2"
 date: "2019-03-14"

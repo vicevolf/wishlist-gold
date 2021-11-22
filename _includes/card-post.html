@@ -1,6 +1,6 @@
-<div class="card card-pin  raco" {% unless post.image %} style="min-height:250px;background:#333;" {% endunless %}>
+<div class="card card-pin  raco" {% if post.alt %} style="min-height:250px;background:#1f2937;" {% endif %}>
 
-    {% unless post.image %}
+    {% if post.alt %}
 
     <a href="{{site.baseurl}}{{post.url}}" class="d-block p-3">
         <h2 class="card-title title text-white mb-3">{{ post.title }}</h2>
@@ -10,16 +10,11 @@
         </div>
     </a>
 
-    {% endunless %}
+    {% endif %}
 
-    {% if post.image %}
+    {% unless post.alt %}
 
     <div class="wrapcat">
-
-        <!-- <span class="pinme">
-            <a data-pin-do="buttonPin"
-                href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{post.url}}&media={{site.url}}{{site.baseurl}}/{{post.image}}&description={{ post.title }} - {{ post.content | strip_html | truncatewords:25 }}"></a>
-        </span> -->
 
         <span class="gotopost">
             <a href="{{site.baseurl}}{{post.url}}" class="text-dark"><i class="fa fa-arrow-circle-right"></i> More
@@ -44,8 +39,7 @@
 
     <a href="{{site.baseurl}}{{post.url}}" target="_blank">
 
-        <img class="card-img" src="{% if post.image contains " ://" %}{{ post.image }}{% else %}{{ post.image |
-            absolute_url }}{% endif %}" alt="{{ post.title }}" loading="lazy">
+        <img class="card-img" src="/assets/images{{post.url}}0.jpg" alt="{{ post.title }}" loading="lazy">
 
         <div class="notraco {{ post.status }}">
             <h2 class="card-title title">{{ post.title }}</h2>
@@ -56,7 +50,7 @@
 
     </a>
 
-    {% endif %}
+    {% endunless %}
 
 
 </div>

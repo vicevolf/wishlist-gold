@@ -265,7 +265,7 @@ article .card-body {
 }
 
 .btn-gray:hover {
-  background-color: #FFD700;
+  background-color: #e7a425;
 }
 
 #wishlist:hover {
@@ -687,11 +687,11 @@ a.next {
 
 /* post.status */
 .tbd {
-  background: #1b5d80;
+  background: #34455d;
 }
 
 .thx {
-  background: #1c3b7f;
+  background: #5e7da9;
 }
 
 /* content */

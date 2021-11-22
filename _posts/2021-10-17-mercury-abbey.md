@@ -1,7 +1,8 @@
 ---
-title:  "水银疗养院 Merucy Abbey"
+title:  "水银疗养院"
+subtitle: "Merucy Abbey"
+status: thx
 categories: [ Premium, UI, Graphics ]
-image: "/assets/images/MerucyAbbey/0.jpg"
 visit: "https://store.steampowered.com/app/1689080/_/"
 author: "Player 2"
 date: "2021-10-17"

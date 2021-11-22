@@ -216,7 +216,7 @@ a {
 
 /* line 13, node_modules/bootstrap/scss/mixins/_hover.scss */
 a:hover {
-  color: #FFD700;
+  color: #e7a425;
   text-decoration: underline;
 }
 
